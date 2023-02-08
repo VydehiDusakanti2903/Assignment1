@@ -1,0 +1,136 @@
+.header {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: #FFCD9E;
+
+}
+
+.leftSection {
+    width: 600px;
+    height: 500px;
+}
+
+.title {
+    position: absolute;
+    left: 90px;
+    top: 83px;
+    width: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+p.description {
+    position: absolute;
+    width: 495px;
+    height: 81px;
+    left: 90px;
+    top: 200px;
+}
+
+.subTitle {
+    position: absolute;
+    width: 227px;
+    height: 81px;
+    left: 90px;
+    top: 290px;
+}
+
+input {
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    left: 90px;
+    top: 350px;
+    border-radius: 5px;
+    color: #888888;
+    text-align: start;
+
+}
+
+.button {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 400px;
+    top: 350px;
+    color: #FFFFFF;
+    background: #282828;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    color: white;
+    height: 61px;
+    left: 100px;
+    top: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.rightSection {
+    width: 400px;
+    height: 500px;
+}
+
+img{
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    background: #282828;
+
+}
+
+.footerLeft {
+
+    width: 500px;
+    height: 200px;
+}
+
+ul.leftFTlinks{
+    list-style: none;
+    color: white;
+    line-height: 32px;
+    font-weight: 400;
+    position: absolute;
+    height: 30px;
+    left: 120px;
+    top: 500px;
+}
+
+.footerRight {
+    width: 500px;
+    height: 200px;
+}
+ul.rightFTLinks{
+    list-style: none;
+    color: white;
+    line-height: 36px;
+    text-align: right;
+    position: relative;
+    right:40%;
+}
+.LinkedinLogo{
+    position: absolute;
+    width:18px;
+    right:30%;
+    margin-top: -60px;
+
+}
+.InstagramLogo{
+    position: absolute;
+    width:18px;
+    right:28%;
+    margin-top: -60px;
+}
