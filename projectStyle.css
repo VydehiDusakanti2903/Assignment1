@@ -1,0 +1,261 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #6F6AF7;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    max-width: 100%;
+    padding-top: 0px;
+}
+
+.nav-menu {
+    list-style: none;
+    /* width:100%; */
+    display: flex;
+
+
+}
+
+li {
+    padding: 0 30px 0 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.icon {
+    padding-left: 15px;
+    background: url('Vector-2.png') no-repeat 90%;
+    background-size: 10px;
+    background-color: #FFFFFF;
+}
+
+input {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+}
+
+.left-content {
+    position: absolute;
+    left: 10%;
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+    top: 120px;
+}
+
+.left-content-image {
+    width: 60%;
+
+}
+
+.right-content {
+    background-color: #E5D8FF;
+
+    position: absolute;
+    left: 30%;
+    height: 300px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+p.description {
+    padding-left: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    color: #6F7373;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    top: 480px;
+    justify-content: space-evenly;
+    padding: 0 30px 0 30px;
+}
+
+p {
+    color: #FFFFFF;
+    padding-left: 14px;
+    font-size: 30px;
+    font-family: 'DM Sans';
+}
+
+.card-1 {
+    width: 300px;
+    height: 150px;
+    background: #929DFF;
+    box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+}
+
+.card-2 {
+    width: 300px;
+    height: 150px;
+    background: #734CF2;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+}
+
+.card-3 {
+    width: 300px;
+    height: 150px;
+    background: #D288FF;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+}
+
+.card-4 {
+    width: 300px;
+    height: 150px;
+    background: #000000;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+}
+
+.chatIcon {
+    position: absolute;
+    display: block;
+    border-radius: 35px;
+    left: 87%;
+    top: 90px;
+    width: 75px;
+    height: 75px;
+    background-color: #FFFFFF;
+}
+
+.chatImage {
+    width: 90%;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+.fa-facebook {
+
+    color: #3b5998;
+}
+
+.fa-twitter {
+
+    color: #1DA1F2;
+}
+
+.fa-whatsapp {
+
+    color: #25D366;
+}
+
+.font-icons {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    float:right;
+    position: sticky;
+    top:80px;
+    right:15px;
+    
+
+}
+.icons{
+    border:1px solid black;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+
+}
+
+.socialForm {
+    position:relative;
+    background: #483EFF;
+    border-radius: 21px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-top:38%;
+    left: 54px;
+    
+}
+.leftSection{
+    width:40%;
+}
+.button{
+    
+    display: flex;
+    flex-direction: row;
+   margin-top:20px;
+   width:50%;
+   height:25%;
+   text-align: center;
+   position: relative;
+   left: 30%;
+   font-size: 30px;
+    border-radius:21px;
+}
+.button1{
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+    color:black;
+}
+.button2{
+    text-align: center;
+    border:1px solid white;
+    background: #483EFF;
+    color:white;
+}
+.button3{
+    text-align: center;
+    border:1px solid white;
+    background: #483EFF;
+    color:white;
+}
+.rightSection{
+    position: relative;
+    
+    background: #FFFFFF;
+border-radius: 19px;
+margin-top:10px;
+width:50%;
+color:black;
+    
+}
+p.content{
+    color:black;
+    margin-left: 5px;
+}
